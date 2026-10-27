@@ -13,3 +13,8 @@ elif progress > 0:
     print("The project is in progress.")
 else:
     print("Not started.")
+
+activities = [
+    {"name": input("Enter the name of the first activity: "), 
+     "progress": int(input("Enter the progress of the first activity (0-100): "))},
+]
